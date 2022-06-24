@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "dfx": "0.10.1",
+  "canisters": {
+    "depend_token": {
+      "package": "token",
+      "candid": "token/token.did",
+      "type": "rust"
+    },
+    "depend": {
+      "type": "rust",
+      "package": "depend",
+      "candid": "src/depend/depend.did"
+    },
+    "assets": {
+      "dependencies": [
+        "depend"
+      ],
+      "frontend": {
+        "entrypoint": "src/depend_assets/src/index.js"
+      },
+      "source": [
+        "src//assets",
+        "dist/explore_hello_assets/"
+      ],
+      "type": "assets"
+    }
+  },
+  "defaults": {
+    "build": {
+      "packtool": "",
+      "args": ""
+    }
+  },
+  "networks": {
+    "local": {
+      "bind": "127.0.0.1:1024",
+      "type": "ephemeral"
+    }
+  }
+}
