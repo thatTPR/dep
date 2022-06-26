@@ -7,3 +7,5 @@
 // All limitations still apply
 
 // There are no disadvantages to making an organisation when it comes to rewards
+
+struct org {}

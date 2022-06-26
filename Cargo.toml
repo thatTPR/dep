@@ -3,5 +3,6 @@ members = [
     "src/core",
     "src/identity",
     "src/repo",
+    "src/repoContent",
     "src/token"
 ]

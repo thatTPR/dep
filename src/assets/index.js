@@ -1,5 +1,5 @@
 import { Actor, HttpAgent } from "@dfinity/agent";
-
+import './login.js';
 // Imports candid interface
 import { idlFactory } from './hello.did.js.js';
 
@@ -7,7 +7,7 @@ import token from 'ic:cansiters/token';
 import core from 'ic:cansisters/core';
 // CANISTER_ID is replaced by webpack based on node enviroment
 
-import './login.js';
+
 export const canisterId = await login(); // TODO
 
 /**

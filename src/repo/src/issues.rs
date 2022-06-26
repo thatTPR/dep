@@ -1,8 +1,15 @@
-// TODO storage
+// TODO Storage
 
-use ic_kit::
-struct Issues {
+use serde::{Deserialize, Serialize};
 
+struct Comment {
+    Comments: Vec<Comment>,
+    Content: String,
 }
-
-// TODO access
+struct Issue {
+    num: i32,
+    Title: String,
+    Comments: Vec<Comment>,
+    Label: String,
+    open: bool,
+}
