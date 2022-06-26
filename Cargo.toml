@@ -1,5 +1,7 @@
 [workspace]
 members = [
-    "src/depend",
+    "src/core",
+    "src/identity",
+    "src/repo",
     "src/token"
 ]

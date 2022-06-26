@@ -1,0 +1,7 @@
+service : lib {
+    "search": (text) -> (text) query;
+    "indexRepo": (text) -> () update;
+    "indexIdentiy":(text) -> () update ;
+    "unIndexRepo":(text) -> () update ;
+    
+}

@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="37" height="51"
+  viewBox="0 0 37 51">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#d53b3b" />
+      <stop offset="1" stop-color="#0d12a2" />
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#d53b3b" />
+      <stop offset="1" stop-color="#0c6da0" />
+    </linearGradient>
+  </defs>
+  <circle id="Ellipse_1" data-name="Ellipse 1" cx="5.5" cy="5.5" r="5.5" transform="translate(11 40)" fill="#0c6da0" />
+  <circle id="Ellipse_2" data-name="Ellipse 2" cx="7.5" cy="7.5" r="7.5" fill="#d53b3b" />
+  <rect id="Rectangle_2" data-name="Rectangle 2" width="3" height="23" transform="translate(10.173 12.621) rotate(-41)"
+    fill="url(#linear-gradient)" />
+  <circle id="Ellipse_3" data-name="Ellipse 3" cx="7.5" cy="7.5" r="7.5" transform="translate(22 26)" fill="#0d12a2" />
+  <rect id="Rectangle_3" data-name="Rectangle 3" width="3" height="32" transform="translate(7 13.204) rotate(-14)"
+    fill="url(#linear-gradient-2)" />
+</svg>
+<!-- TODO -->

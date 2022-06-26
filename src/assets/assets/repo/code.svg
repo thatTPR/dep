@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="30.477" height="55.578" viewBox="0 0 30.477 55.578">
+    <line id="Line_7" data-name="Line 7" y2="3.5" transform="translate(19.27)" fill="none" stroke="#707070"
+        stroke-width="1" />
+    <path id="Path_12" data-name="Path 12"
+        d="M345.292,94.439s7.36-.9,7.144,5.793c-.158,4.875-.086,12.589-.031,16.724a3.257,3.257,0,0,0,.944,2.026h3.42"
+        transform="translate(-326.292 -91.403)" fill="none" stroke="#707070" stroke-width="1" />
+    <line id="Line_8" data-name="Line 8" y1="3.5" transform="translate(19.27 52.078)" fill="none" stroke="#707070"
+        stroke-width="1" />
+    <path id="Path_13" data-name="Path 13"
+        d="M345.292,118.94s7.36.9,7.144-5.793c-.158-4.875-.086-12.589-.031-16.724a3.257,3.257,0,0,1,.944-2.026h3.42"
+        transform="translate(-326.292 -66.398)" fill="none" stroke="#707070" stroke-width="1" />
+    <line id="Line_9" data-name="Line 9" y2="3.5" transform="translate(11.207)" fill="none" stroke="#707070"
+        stroke-width="1" />
+    <path id="Path_14" data-name="Path 14"
+        d="M356.77,94.439s-7.36-.9-7.144,5.793c.158,4.875.086,12.589.031,16.724a3.257,3.257,0,0,1-.944,2.026h-3.42"
+        transform="translate(-345.292 -91.403)" fill="none" stroke="#707070" stroke-width="1" />
+    <line id="Line_10" data-name="Line 10" y1="3.5" transform="translate(11.207 52.078)" fill="none" stroke="#707070"
+        stroke-width="1" />
+    <path id="Path_15" data-name="Path 15"
+        d="M356.77,118.94s-7.36.9-7.144-5.793c.158-4.875.086-12.589.031-16.724a3.257,3.257,0,0,0-.944-2.026h-3.42"
+        transform="translate(-345.292 -66.398)" fill="none" stroke="#707070" stroke-width="1" />
+</svg>
+<!-- TODO -->

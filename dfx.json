@@ -7,20 +7,35 @@
       "candid": "token/token.did",
       "type": "rust"
     },
-    "depend": {
+    "core": {
       "type": "rust",
-      "package": "depend",
-      "candid": "src/depend/depend.did"
+      "package": "core",
+      "candid": "src/core/core.did"
+    },
+    "identity": {
+      "type": "rust",
+      "package": "identity",
+      "candid": "src/identity/identity.did"
+    },
+    "repo": {
+      "type": "rust",
+      "package": "repo",
+      "candid": "src/repo/repo.did"
+    },
+    "search": {
+      "type": "rust",
+      "package": "search",
+      "candid": "src/search/search.did"
     },
     "assets": {
       "dependencies": [
-        "depend"
+        "core"
       ],
       "frontend": {
-        "entrypoint": "src/depend_assets/src/index.js"
+        "entrypoint": "src/assets/src/index.js"
       },
       "source": [
-        "src//assets",
+        "src/assets",
         "dist/explore_hello_assets/"
       ],
       "type": "assets"

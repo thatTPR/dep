@@ -1,0 +1,8 @@
+service : lib {
+    "new": (Principal, text) -> (text) update;
+    "changeName": (text) -> (bool) update;
+    "name": () -> (Text) query;
+    "email" () -> (Text) -> (text) query;
+
+     
+}
