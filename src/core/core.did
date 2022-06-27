@@ -1,7 +1,7 @@
 service : lib {
-  
+    "accessGuest": () -> (text) query ;
     "accessIdentity": (principal) -> (text, bool) query ;
-    "createIdentiy": (principal, text) -> (text) update ; 
+    "createIdentiy": (principal, text) -> (text, bool) update ; 
     "modifyIdentiy": (principal, text) -> (text) update ;
     "deleteIdentity": (principal, bool) -> (text) udpate ;
     "search": (text) -> (text) query;

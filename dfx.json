@@ -5,31 +5,77 @@
     "depend_token": {
       "package": "token",
       "candid": "token/token.did",
-      "type": "rust"
+      "type": "rust",
+      "source": "src/token",
+      "dependencies": [
+        "identity",
+        "repo",
+        "assets"
+      ]
     },
     "core": {
       "type": "rust",
       "package": "core",
-      "candid": "src/core/core.did"
+      "candid": "src/core/core.did",
+      "source": "src/core",
+      "dependencies": [
+        "identity",
+        "repo",
+        "assets",
+        "coreExtended",
+        "depend_token"
+      ]
+    },
+    "coreExtended": {
+      "type": "rust",
+      "package": "coreExtended",
+      "candid": "src/coreExtended/coreExtended.did",
+      "source": "src/coreExtended",
+      "dependencies": [
+        "identity",
+        "assets",
+        "depend_token"
+      ]
     },
     "identity": {
       "type": "rust",
       "package": "identity",
-      "candid": "src/identity/identity.did"
+      "candid": "src/identity/identity.did",
+      "source": "src/identity",
+      "dependencies": [
+        "core",
+        "repo",
+        "assets",
+        "depend_token"
+      ]
     },
     "repo": {
       "type": "rust",
       "package": "repo",
-      "candid": "src/repo/repo.did"
+      "candid": "src/repo/repo.did",
+      "dependencies": [
+        "repoContent",
+        "depend_token",
+        "identity",
+        "assets",
+        "depend_token"
+      ]
     },
-    "search": {
+    "repoContent": {
       "type": "rust",
-      "package": "search",
-      "candid": "src/search/search.did"
+      "package": "repoContent",
+      "candid": "src/repo/repoContent.did",
+      "dependencies": [
+        "assets",
+        "repo"
+      ]
     },
     "assets": {
       "dependencies": [
-        "core"
+        "core",
+        "identity",
+        "repo",
+        "repoContent"
       ],
       "frontend": {
         "entrypoint": "src/assets/src/index.js"

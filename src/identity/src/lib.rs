@@ -8,7 +8,8 @@ use {guest, org, user};
 use ic_cdk_macros::*;
 use ic_utils::Canister;
 
-struct Guest {}
+use candid:: ;// Import core and Repo, Store references to repositories 
+// Default guest
 
 struct Identity {}
 // TODO profile metadata

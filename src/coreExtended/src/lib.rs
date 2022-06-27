@@ -35,8 +35,6 @@ pub fn provideId(principal: candid::Principal) -> ic_utils::canister::Canister{ 
 
 
 
-
-
 #[query(name = "accessIdentity")]
 fn accesIdentity(principal: candid::Principal) -> (String, bool){
 

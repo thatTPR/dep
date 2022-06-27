@@ -3,6 +3,6 @@ service : lib {
     "changeName": (text) -> (bool) update;
     "name": () -> (Text) query;
     "email" () -> (Text) -> (text) query;
-
+    
      
 }

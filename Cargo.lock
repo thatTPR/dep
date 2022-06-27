@@ -1737,7 +1737,6 @@ dependencies = [
  "ic-cdk 0.3.3",
  "ic-cdk-macros 0.3.3",
  "ic-kit",
- "ic-utils",
  "serde",
 ]
 
