@@ -6,7 +6,7 @@ use ic_utils;
 use ic_cdk_macros::*;
 use ic_utils::canister;
 use serde::{Serialize, Deserialize} ;
-
+use protobuf as pb ; 
 #[ic_cdk_macros::heartbeat]
 fn heartbeat() {}
 
@@ -28,18 +28,10 @@ pub fn provideId(principal: candid::Principal) -> ic_utils::canister::Canister{ 
     ic_cdk::storage::get()
 }
 
-// TODO handle memory limits
-
-
-
-
-
-
 #[query(name = "accessIdentity")]
 fn accesIdentity(principal: candid::Principal) -> (String, bool){
 
 }
-
 #[update(name = "createIdentity")]
 fn createIdentity(principal: candid::Principal, text: String) -> String{
    
@@ -51,7 +43,7 @@ fn modifyIdentity(principal: candid::Principal, text: String) {
 
 }
 #[update(name = "deleteIdentity")]
-fn deleteIdentiy() ->String{
+fn deleteIdentity() ->String{
     
 }
 

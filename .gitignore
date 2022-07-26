@@ -19,3 +19,6 @@ dist/
 
 vendor
 target
+
+
+src/*/target

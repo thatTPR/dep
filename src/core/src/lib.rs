@@ -7,12 +7,16 @@ use ic_cdk_macros::*;
 use ic_utils::canister;
 use serde::{Serialize, Deserialize} ;
 
-use candid:: ; // TODO import core-Extended and References to identities  and References to repositories( securely and held in active memory)
+use candid::utils:: ; // TODO import core-Extended and References to identities  and References to repositories( securely and held in active memory)
 
 #[ic_cdk_macros::heartbeat]
+
+
+// TODO make network cheaper as it grows and more canisters get created 
+
+
 fn heartbeat() {}
 
-pub fn 
 pub fn createId(principal: candid::Principal , text: String) -> ic_utils::Canister { // TODO
     
 }
